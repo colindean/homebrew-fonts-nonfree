@@ -16,6 +16,11 @@ the font or otherwise gain permission to use it, the ghost of
 [Morris Fuller Benton](https://en.wikipedia.org/wiki/Morris_Fuller_Benton) will
 mess with your kernings now and forevermore.
 
+All casks (in `Casks`) are in the public domain, or [CC0] where public domain
+doesn't exist.
+
+[CC0]: https://creativecommons.org/publicdomain/zero/1.0/
+
 ## How to get these fonts
 
 First, you'll have to have [Homebrew](http://brew.sh) installed.
