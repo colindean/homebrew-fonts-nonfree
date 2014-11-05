@@ -18,11 +18,11 @@ mess with your kernings now and forevermore.
 
 ## How to get these fonts
 
-First, you'll have to have Homebrew installed.
+First, you'll have to have [Homebrew](http://brew.sh) installed.
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Then install Caskroom.
+Then install [Caskroom](http://caskroom.io).
 
     brew install caskroom/cask/brew-cask
 
