@@ -45,7 +45,8 @@ install it and now Homebrew itself, which is just `brew`.
 ## Notable inclusions
 
 * The Microsoft Office 2007 fonts in `font-microsoft-office`
-  * Users of the free Powerpoint Viewer or owners of Microsoft Office can use.
+  * Owners of various Microsoft products may use. See 
+    `brew cask info font-microsoft-office` for known caveats.
   * Included fonts:
     * Calibri
     * Cambria
