@@ -1,4 +1,4 @@
-class FontMicrosoftOffice < Cask
+cask :v1 => 'font-microsoft-office' do
   version '1.000'
   sha256 '6833e3fe8aa82b8aa675a654fc3ed496c3faab79579103fab8f4ff94a1be0fd1'
 
