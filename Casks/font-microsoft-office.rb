@@ -5,7 +5,6 @@ cask 'font-microsoft-office' do
 
   url 'http://www.rmtweb.co.uk/wp-content/uploads/2013/06/Calibri-and-Cambria-Fonts.zip'
   homepage 'http://www.rmtweb.co.uk/calibri-and-cambria-fonts-for-mac'
-  license :commercial
 
   caveats <<-CAVS.gsub(/^[\s]*/, '').strip
     These fonts are copyrighted by Microsoft.
