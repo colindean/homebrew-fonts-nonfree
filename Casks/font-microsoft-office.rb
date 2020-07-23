@@ -3,8 +3,8 @@ cask 'font-microsoft-office' do
   version '1.000'
   sha256 '6833e3fe8aa82b8aa675a654fc3ed496c3faab79579103fab8f4ff94a1be0fd1'
 
-  url 'http://www.rmtweb.co.uk/wp-content/uploads/2013/06/Calibri-and-Cambria-Fonts.zip'
-  homepage 'http://www.rmtweb.co.uk/calibri-and-cambria-fonts-for-mac'
+  url 'https://www.rmtweb.co.uk/wp-content/uploads/2013/06/Calibri-and-Cambria-Fonts.zip'
+  homepage 'https://www.rmtweb.co.uk/calibri-and-cambria-fonts-for-mac'
 
   caveats <<-CAVS.gsub(/^[\s]*/, '').strip
     These fonts are copyrighted by Microsoft.
