@@ -1,6 +1,6 @@
 # Non-Free Fonts
 
-This [Homebrew](http://brew.sh)/[Caskroom](http://caskroom.io) tap contains
+This [Homebrew](http://brew.sh) tap contains
 various non-free fonts from around the Internet.
 
 ## License and copyright
@@ -26,10 +26,6 @@ doesn't exist.
 First, you'll have to have [Homebrew](http://brew.sh) installed.
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-Then install [Caskroom](http://caskroom.io).
-
-    brew install caskroom/cask/brew-cask
 
 Then tap this repository.
 
