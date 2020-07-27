@@ -27,10 +27,6 @@ First, you'll have to have [Homebrew](http://brew.sh) installed.
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Then install [Caskroom](http://caskroom.io).
-
-    brew install caskroom/cask/brew-cask
-
 Then tap this repository.
 
     brew tap colindean/fonts-nonfree
