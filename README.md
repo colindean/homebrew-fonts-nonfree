@@ -1,6 +1,6 @@
 # Non-Free Fonts
 
-This [Homebrew](http://brew.sh)/[Caskroom](http://caskroom.io) tap contains
+This [Homebrew](http://brew.sh) tap contains
 various non-free fonts from around the Internet.
 
 ## License and copyright
