@@ -25,7 +25,7 @@ doesn't exist.
 
 First, you'll have to have [Homebrew](http://brew.sh) installed.
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 Then tap this repository.
 
@@ -33,16 +33,15 @@ Then tap this repository.
 
 Now you can do something like
 
-    brew cask install font-microsoft-office
+    brew install --cask font-microsoft-office
 
-Note the use of `cask` in this installation line, as you must use Caskroom to
-install it and now Homebrew itself, which is just `brew`.
+The `--cask` is optional: it simply flags the options passed as explicitly casks and not formulae in case of a name collision.
 
 ## Notable inclusions
 
 * The Microsoft Office 2007 fonts in `font-microsoft-office`
   * Owners of various Microsoft products may use. See 
-    `brew cask info font-microsoft-office` for known caveats.
+    `brew info font-microsoft-office` for known caveats.
   * Included fonts:
     * Calibri
     * Cambria
