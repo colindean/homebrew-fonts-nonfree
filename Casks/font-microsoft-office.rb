@@ -12,7 +12,8 @@ cask 'font-microsoft-office' do
     Microsoft UK confirmed you are allowed to have them,
     provided that you own a copy of either:
 
-    * Microsoft PowerPoint Viewer (free)
+    * Microsoft PowerPoint Viewer (free, retired)
+      * May include PowerPoint Mobile (free)
     * Microsoft Office (Any version, Windows or Mac)
 
     For more information, see #{homepage}.
