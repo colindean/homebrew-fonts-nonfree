@@ -49,3 +49,6 @@ The `--cask` is optional: it simply flags the options passed as explicitly casks
     * Consolas
     * Constantia
     * Corbel
+* Microsoft Aptos in `font-microsoft-aptos`
+  * Display, Mono, Serif, and default (Sans)
+  * Varying weights included
