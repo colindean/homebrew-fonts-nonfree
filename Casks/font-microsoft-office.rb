@@ -6,7 +6,7 @@ cask 'font-microsoft-office' do
   url 'https://web.archive.org/web/20250130095752/https://static1.squarespace.com/static/61d5ab6bc6583e72b5cf3489/t/61e6987eb855664a43dacc36/1642502280919/Calibri-and-Cambria-Fonts.zip'
   homepage 'https://web.archive.org/web/20251128061414/http://www.rmtweb.co.uk:80/calibri-and-cambria-fonts-for-mac'
 
-  caveats <<-CAVS.gsub(/^[\s]*/, '').strip
+  caveats <<~CAVS
     These fonts are copyrighted by Microsoft.
 
     Microsoft UK confirmed you are allowed to have them,
