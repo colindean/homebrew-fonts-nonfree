@@ -1,6 +1,6 @@
 # Non-Free Fonts
 
-This [Homebrew](http://brew.sh) tap contains
+This [Homebrew](http://brew.sh) ["tap"](https://docs.brew.sh/Taps) contains
 various non-free fonts from around the Internet.
 
 ## License and copyright
@@ -23,19 +23,30 @@ doesn't exist.
 
 ## How to get these fonts
 
-First, you'll have to have [Homebrew](http://brew.sh) installed.
+<details markdown=1>
+<summary>First, you'll need Homebrew installed. Click here for instructions.</summary>
 
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Visit [Homebrew's website](http://brew.sh) for the latest installation method.
+It's probably this:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+</details>
 
 Then tap this repository.
 
-    brew tap colindean/fonts-nonfree
+```shell
+brew tap colindean/fonts-nonfree
+```
 
-Now you can do something like
+Now you can install with:
 
-    brew install --cask font-microsoft-office
+```shell
+brew install --cask font-microsoft-office font-microsoft-aptos font-microsoft-fluent
+```
 
-The `--cask` is optional: it simply flags the options passed as explicitly casks and not formulae in case of a name collision.
+_The `--cask` is optional: it simply flags the options passed as explicitly casks and not formulae in case of a name collision._
 
 ## Notable inclusions
 
