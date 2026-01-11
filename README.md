@@ -52,3 +52,7 @@ The `--cask` is optional: it simply flags the options passed as explicitly casks
 * Microsoft Aptos in `font-microsoft-aptos`
   * Display, Mono, Serif, and default (Sans)
   * Varying weights included
+* Microsoft Fluent Calibri and Sitka in `font-microsoft-fluent`
+  * These variants of the Microsoft fonts are intended to help readers with visual crowding
+    by adding extra space between letters, words, and lines.
+    Visual crowding is sometimes associated with dyslexia.
