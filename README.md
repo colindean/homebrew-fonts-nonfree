@@ -37,7 +37,8 @@ It's probably this:
 Then tap this repository.
 
 ```shell
-brew tap colindean/fonts-nonfree
+brew tap colindean/fonts-nonfree && \
+brew trust colindean/fonts-nonfree
 ```
 
 Now you can install with:
